@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Carousel Task</title>
+    <style>
+      .carousel {
+        position: relative;
+        height: 200px;
+        width: 250px;
+      }
+      .carousel--maincard.list {
+        background: pink;
+        color: white;
+        height: 200px;
+        width: 250px;
+      }
+      .carousel--maincard.silder {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 24px;
+      }
+      .carousel--arrow {
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .carousel--arrow.right {
+        position: absolute;
+        right: -4px;
+        top: 0px;
+        bottom: 0px;
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+      .carousel--arrow.left {
+        position: absolute;
+        left: -4px;
+        top: 0px;
+        bottom: 0px;
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+      .carousel--navarrow {
+        position: absolute;
+        bottom: 4px;
+        display: flex;
+        gap: 8px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav {
+        width: 4px;
+        height: 4px;
+        background: gray;
+        border-radius: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="carousel">
+      <div class="carousel--maincard">
+        <div class="carousel--maincard list">
+          <div class="carousel--maincard silder">1</div>
+        </div>
+      </div>
+      <div class="carousel--arrow right">
+        <img
+          src="../img/right-arrow.svg"
+          alt="rightarrow" />
+      </div>
+      <div class="carousel--arrow left">
+        <img
+          src="../img/left-arrow.svg"
+          alt="rightarrow" />
+      </div>
+      <div class="carousel--navarrow">
+        <div class="nav"></div>
+        <div class="nav"></div>
+        <div class="nav"></div>
+        <div class="nav"></div>
+      </div>
+    </section>
+  </body>
+</html>
