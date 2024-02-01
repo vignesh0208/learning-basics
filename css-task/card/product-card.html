@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Card Task</title>
+    <style>
+      .card {
+        width: 200px;
+        border-radius: 8px;
+        background: black;
+        color: white;
+        padding: 16px;
+      }
+      .card__image {
+        margin-bottom: 8px;
+      }
+      .card__title {
+        margin-top: 0px;
+      }
+      .card__description {
+        text-align: justify;
+        margin: 0px;
+      }
+      .card__buttons {
+        margin-top: 8px;
+        display: flex;
+        gap: 4px;
+      }
+      .card__button {
+        border: 0px;
+        padding: 4px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .card__button.checkout {
+        background: yellow;
+      }
+      .card__button.wishlist {
+        background: red;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card">
+      <img
+        src="https://picsum.photos/200/200"
+        alt="Sample image"
+        class="card__image" />
+      <h1 class="card__title">Title</h1>
+      <p class="card__description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        consequuntur, porro nemo vel enim dolore velit dolores, tenetur deserunt
+        illum dignissimos ea quis incidunt nihil sequi nobis exercitationem.
+        Necessitatibus, corporis.
+      </p>
+      <div class="card__buttons">
+        <button class="card__button checkout">Checkout</button>
+        <button class="card__button wishlist">Wishlist</button>
+      </div>
+    </section>
+  </body>
+</html>

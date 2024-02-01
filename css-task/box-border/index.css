@@ -1,0 +1,10 @@
+div {
+  margin-bottom: 8px;
+}
+div:last-child {
+  margin-bottom: 0px;
+}
+.box-boder {
+  padding: 16px;
+  border: 8px solid rebeccapurple;
+}

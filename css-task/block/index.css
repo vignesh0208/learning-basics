@@ -1,0 +1,11 @@
+div {
+  background: black;
+  color: white;
+  padding: 4px;
+  padding-left: 24px;
+  margin-bottom: 4px;
+}
+
+div:last-child {
+  margin-bottom: 0px;
+}
