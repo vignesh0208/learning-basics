@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fade in Scale Task</title>
+    <style>
+      .color-box {
+        height: 100px;
+        width: 100px;
+        background: red;
+        animation-name: boxrounded;
+        animation-duration: 2s;
+      }
+      @keyframes boxrounded {
+        0% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="color-box"></div>
+  </body>
+</html>
